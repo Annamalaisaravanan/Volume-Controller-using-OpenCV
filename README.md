@@ -6,7 +6,7 @@
  Using this code, you can generate the colored dataset on your own. Gestures that are shown inside the ROI box can be stored by pressing the respective class button(say 0 or 1 or 2) in the keyboard.
  
  ## [Model_training.ipynb](https://github.com/Annamalaisaravanan/Volume-Controller-using-OpenCV/blob/main/Model_training.ipynb)
- Seeing this notebook will let you the clear cut idea of how training has been done. I feed image dataset to the 8-layer CNN Sequential Model. I used [adam](https://keras.io/api/optimizers/adam/) optimizer and my loss function is [Categorical_crossentropy](https://keras.io/api/losses/probabilistic_losses/#categoricalcrossentropy-class) because i have three classes at the output.
+ Seeing this notebook will let you the clear cut idea of how training has been done. Image dataset was feed to the 8-layer CNN Sequential Model. I used [adam](https://keras.io/api/optimizers/adam/) optimizer and my loss function is [Categorical_crossentropy](https://keras.io/api/losses/probabilistic_losses/#categoricalcrossentropy-class) because i have three classes at the output.
  
  
  ## [app.py](https://github.com/Annamalaisaravanan/Volume-Controller-using-OpenCV/blob/main/app.py)
