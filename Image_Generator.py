@@ -51,18 +51,12 @@ while True:
     roi = cv2.resize(roi, (64, 64)) 
  
     cv2.imshow("Frame", frame)
-    
-    #_, mask = cv2.threshold(mask, 200, 255, cv2.THRESH_BINARY)
-    #kernel = np.ones((1, 1), np.uint8)
-    #img = cv2.dilate(mask, kernel, iterations=1)
-    #img = cv2.erode(mask, kernel, iterations=1)
-    # do the processing after capturing the image!
-    
-    
+  
+   
     interrupt = cv2.waitKey(10)
     if interrupt & 0xFF == 27: # esc key
         break
-    if interrupt & 0xFF == ord('0'):
+    if interrupt & 0xFF == ord('0'): 
         cv2.imwrite(directory+'0/'+str(count['zero'])+'.jpg', roi)
     if interrupt & 0xFF == ord('1'):
         cv2.imwrite(directory+'1/'+str(count['one'])+'.jpg', roi)
