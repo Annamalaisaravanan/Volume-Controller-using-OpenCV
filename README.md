@@ -10,5 +10,5 @@
  
  
  ## [app.py](https://github.com/Annamalaisaravanan/Volume-Controller-using-OpenCV/blob/main/app.py)
- Here the Real-time predictions are made using OpenCV. After making the predictions of which class the hand gesture belongs, Using pyautogui respective buttons are pressed via software command which triggers the required action we need.  
+ Here the Real-time predictions are made using OpenCV. After making the predictions of which class the hand gesture belongs, Using pyautogui respective buttons are pressed via software command which triggers the required action we need. You can download the weight file of the model [here](https://github.com/Annamalaisaravanan/Volume-Controller-using-OpenCV/blob/main/volume_up_new_model.h5).
      
